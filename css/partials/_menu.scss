@@ -25,6 +25,10 @@ header{
     li {
         margin-left: 24px;
     }
+
+    a.active{
+        color: $red;
+    }
 }
 
 .logo{
@@ -69,6 +73,24 @@ header{
     }
 
 
+    @include responsive(){
+        display: none;
+    }
+
+
+}
+
+.bx {
+    display: none;
+
+    @include responsive(){
+        display: block;
+        width: 48px;
+        height: 48px;
+
+        background-color: $white;
+        border-radius: 8px;
+    }
 }
 
 .nav-social{
@@ -91,5 +113,9 @@ header{
                 transform: translate3d(0, -3px, 0);
             }
         }
+    }
+
+    @include responsive(){
+        display: none;
     }
 }
