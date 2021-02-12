@@ -34,7 +34,7 @@
 
 
 <h3 align="center"> 
-	:rocket: Tecnologias / Linguagens / Frameworks / Bibliotecas
+	:rocket: Tecnologias
 </h3>
 
 <h3 align="center">
